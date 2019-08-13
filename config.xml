@@ -3,12 +3,10 @@
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "com.mliellweb.agendatelefonicaaguaboa"
     versionCode = "10"
-    version     = "1.0.2" >
+    version     = "1.0.1" >
 
 <!-- versionCode is optional and Android only -->
-	<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"  // add tools line here 
-    package="yourpackage">
+	<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" package="yourpackage" />
 	
 	<application
         android:allowBackup="true"
