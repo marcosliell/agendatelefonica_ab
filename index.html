@@ -8,15 +8,27 @@
 	<script src="js/jquery/jquery-3.3.1.js"></script>
     <script src="js/bootstrap/bootstrap.min.js"></script>
 	<script src="js/bootstrap/bootstrap.js"></script>
+	
+	<style type="text/css">
+   .form-control {
+    margin-bottom: 10px;
+	padding: 1rem 0.75rem;
+	border: 2px solid #292929;
+}
+	</style>
+	
   </head>
 
   <body>
   <br>
-	<div class="row">
-		<div class="col-8"><input class="form-control" id="filter" type="text" placeholder="Digite o Nome ou Número..."></div>
-		<div class="col-4"><a href="http://iappe.com.br/portal/agenda/contatoform?layout=edit" target="blank_"><button type="button" class="btn btn-dark" value="add">Adicionar Número</button></a></div>
+  <div align="center" class="col-12"><a href="http://iappe.com.br/portal/agenda/contatoform?layout=edit" target="blank_"><button type="button" class="btn btn-dark btn-sm" value="add">Adicionar Número</button></a>   <a href="info.html"><button type="button" class="btn btn-dark btn-sm" value="inf">Informações</button></a></div>
+	<div class="fixed-bottom">
+		<div class="col-12"><input class="form-control" id="filter" type="text" placeholder="Digite o Nome ou Número..."></div>		
 	</div>
 	<br>
+	<ul class="list-group" id="ativo">
+		<li class="list-group-item active">Clique no número para ligar e compartilhe no Whats!</li>
+		</ul>
     <ul class="list-group" id="listadeItens">
     </ul>
 	<script>

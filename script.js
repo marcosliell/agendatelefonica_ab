@@ -1,6 +1,6 @@
 var json =  
 [
-  {id:'1',nome:'14ª. CPA Policia Militar',numero:'3468-1791'},
+{id:'1',nome:'14ª. CPA Policia Militar',numero:'3468-1791'},
 {id:'2',nome:'16º Pelotão de Polícia Militar',numero:'3468-1190'},
 {id:'3',nome:'24º Ciretran',numero:'3468-2004'},
 {id:'4',nome:'A Pioneira (Farmácia)',numero:'3468-1280'},
@@ -2304,7 +2304,7 @@ function listaItens(json){
     for(var ind in json){
      
       var li ='<li class="list-group-item">'+json[ind]['nome']+' - <a href="tel:'+json[ind]['numero']+'">'+
-               json[ind]['numero']+'</a></li>';
+               json[ind]['numero']+'</a> - <a href="https://api.whatsapp.com/send?text=O Telefone de '+json[ind]['nome']+' é: '+json[ind]['numero']+' - App Agenda Telefônica: http://bit.ly/2KJCrsx"><img src="whatsicon20.png"></img></a></li>';
       $('#listadeItens').append(li);
     }
   
