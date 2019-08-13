@@ -3,7 +3,7 @@
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "com.mliellweb.agendatelefonicaaguaboa"
     versionCode = "10"
-    version     = "1.0.1" >
+    version     = "1.0.2" >
 
 <!-- versionCode is optional and Android only -->
 	<manifest xmlns:android="http://schemas.android.com/apk/res/android"
