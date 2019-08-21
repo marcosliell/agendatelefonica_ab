@@ -5,7 +5,7 @@
 	xmlns:android = "http://schemas.android.com/apk/res/android"
     id          = "io.kodular.mliell_info.agenda_telefonica"
     versionCode = "10"
-    version     = "1.0.1" >
+    version     = "1.0.2" >
 
   <name>Agenda Telefônica de Água Boa - MT</name>
 
