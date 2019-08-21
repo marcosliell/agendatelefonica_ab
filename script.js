@@ -2295,6 +2295,7 @@ var json =
 {id:'2611',nome:'Futrica',numero:'34341616'},
 {id:'2612',nome:'Futrica',numero:'34341616'},
 {id:'2613',nome:'Doce Amor - Chocolataria e Doceria',numero:'3468-2499'},
+{id:'2617',nome:'Versatilly Modas',numero:'3468-2404'},
   
   
 ];
