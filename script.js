@@ -2296,6 +2296,8 @@ var json =
 {id:'2612',nome:'Futrica',numero:'34341616'},
 {id:'2613',nome:'Doce Amor - Chocolataria e Doceria',numero:'3468-2499'},
 {id:'2617',nome:'Versatilly Modas',numero:'3468-2404'},
+{id:'2618',nome:'Adrinaves Confeção',numero:'99981-1032'},
+{id:'2619',nome:'Site Comunicação Imparcial',numero:'99222-9449'},
   
   
 ];
@@ -2304,8 +2306,8 @@ function listaItens(json){
     $('#listadeItens').html("");
     for(var ind in json){
      
-      var li ='<li class="list-group-item">'+json[ind]['nome']+' - <a href="tel:'+json[ind]['numero']+'">'+
-               json[ind]['numero']+'</a> - <a href="https://api.whatsapp.com/send?text=O Telefone de '+json[ind]['nome']+' é: '+json[ind]['numero']+' - App Agenda Telefônica: http://bit.ly/2KJCrsx"><img src="whatsicon20.png"></img></a></li>';
+      var li ='<li class="list-group-item">'+json[ind]['nome']+' - <a href="tel:066'+json[ind]['numero']+'">'+
+               json[ind]['numero']+'</a></li>';
       $('#listadeItens').append(li);
     }
   
